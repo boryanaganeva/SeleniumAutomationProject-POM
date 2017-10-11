@@ -1,0 +1,423 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Find a book and add it to the shopping basket",
+        "description": "",
+        "id": "add-a-book-to-basket-on-amazon;find-a-book-and-add-it-to-the-shopping-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 782405109,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8190765214,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to Amazon",
+            "match": {
+              "location": "BuyABookSteps.i_navigate_to_Amazon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29794986,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I\u0027m on Amazon Landing Page",
+            "match": {
+              "location": "BuyABookSteps.i_am_on_amazon_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2565220535,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to all sections",
+            "match": {
+              "location": "BuyABookSteps.i_navigate_to_all_sections()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15586326,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see listed all sections",
+            "match": {
+              "location": "BuyABookSteps.i_should_see_listed_all_sections()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3764747315,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on \u0027Books\u0027 section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 12
+                }
+              ],
+              "location": "BuyABookSteps.i_click_on_section(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17527348,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should be on \u0027Books\u0027 section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 16
+                }
+              ],
+              "location": "BuyABookSteps.i_should_be_on_section(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2280865968,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the text \u0027Harry Potter and the Cursed Child\u0027 in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry Potter and the Cursed Child",
+                  "offset": 18
+                }
+              ],
+              "location": "BuyABookSteps.i_enter_the_text_in_the_search_box(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4122773382,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the search icon",
+            "match": {
+              "location": "BuyABookSteps.i_click_the_search_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51120027,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The title of the first listed item should be \u0027Harry Potter and the Cursed Child - Parts One and Two\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry Potter and the Cursed Child - Parts One and Two",
+                  "offset": 46
+                }
+              ],
+              "location": "BuyABookSteps.the_title_of_the_first_listed_item_should_be(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29581693,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "it should be a Paperback copy",
+            "match": {
+              "location": "BuyABookSteps.it_should_be_a_Paperback_copy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2037408146,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "it\u0027s price should be \u0027£4.00\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£4.00",
+                  "offset": 22
+                }
+              ],
+              "location": "BuyABookSteps.it_s_price_should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4791298024,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click the first listed item",
+            "match": {
+              "location": "BuyABookSteps.i_click_on_the_first_listed_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2094221699,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the title is \u0027Harry Potter and the Cursed Child - Parts One and Two\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry Potter and the Cursed Child - Parts One and Two",
+                  "offset": 14
+                }
+              ],
+              "location": "BuyABookSteps.the_title_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96131090,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "it is a Paperback copy",
+            "match": {
+              "location": "BuyABookSteps.it_is_a_Paperback_copy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051954820,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it\u0027s price is \u0027£4.00\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£4.00",
+                  "offset": 15
+                }
+              ],
+              "location": "BuyABookSteps.it_s_price_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3141468417,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I navigate to \u0027Add to Basket\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add to Basket",
+                  "offset": 15
+                }
+              ],
+              "location": "BuyABookSteps.i_click_on_add_to_basket(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43913268,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "a notification is shown",
+            "match": {
+              "location": "BuyABookSteps.a_notification_is_shown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31842655,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "there should be a text \u0027Basket subtotal (1 item): £3.85\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Basket subtotal (1 item): £3.85",
+                  "offset": 24
+                }
+              ],
+              "location": "BuyABookSteps.there_should_be_a_text(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27712070,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the item is the basket should be one",
+            "match": {
+              "location": "BuyABookSteps.the_item_is_the_basket_should_be_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2804981889,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I navigate to \u0027Edit basket\u0027 button to edit the basket",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edit basket",
+                  "offset": 15
+                }
+              ],
+              "location": "BuyABookSteps.i_navigate_to_button_to_edit_the_basket(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 67485715,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should be in Edit Shopping Basket",
+            "match": {
+              "location": "BuyABookSteps.i_should_be_in_the_Shopping_Basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47535928,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the title says \u0027Harry Potter and the Cursed Child - Parts One and Two\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harry Potter and the Cursed Child - Parts One and Two",
+                  "offset": 16
+                }
+              ],
+              "location": "BuyABookSteps.the_title_says(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43732813,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "it is a Paperback book",
+            "match": {
+              "location": "BuyABookSteps.it_is_a_Paperback_book()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40242105,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "it is with price of \u0027£4.00\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£4.00",
+                  "offset": 21
+                }
+              ],
+              "location": "BuyABookSteps.it_is_with_price_of(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20734268,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "it\u0027s quantity is one",
+            "match": {
+              "location": "BuyABookSteps.it_s_quantity_is_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44675759,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the total price is \u0027£4.00\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£4.00",
+                  "offset": 20
+                }
+              ],
+              "location": "BuyABookSteps.the_total_price_is(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add a book to basket on Amazon",
+    "description": "As a user\r\nI want to buy a book",
+    "id": "add-a-book-to-basket-on-amazon",
+    "keyword": "Feature",
+    "uri": "BuyABook.feature"
+  }
+]
